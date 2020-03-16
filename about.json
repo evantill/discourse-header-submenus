@@ -1,6 +1,6 @@
 {
   "name": "Onebox Track Url",
-  "about_url": "https://github.com/evantill/discourse-onebox-track-url/",
+  "about_url": "https://meta.discourse.org/t/improve-onebox-click-counting/",
   "license_url": "https://github.com/evantill/discourse-onebox-track-url/blob/master/LICENSE",
   "component": true
 }
