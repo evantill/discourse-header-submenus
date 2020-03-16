@@ -1,7 +1,5 @@
-# discourse-header-submenus
+# discourse-onebox-track-url
 
-A theme component that allows you to build a header menu - with submenus - using plain text!
+A theme component that allows tracking clicks on Onebox url.
 
-More information <a href="https://meta.discourse.org/t">https://meta.discourse.org/</a>
-
-<a href="https://github.com/claviska/jquery-dropdown">jquery-dropdown</a> courtesy of Cory LaViska - MIT license
+More information <a href="https://meta.discourse.org/t/improve-onebox-click-counting/130409">https://meta.discourse.org/</a>

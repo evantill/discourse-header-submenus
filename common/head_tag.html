@@ -1,0 +1,15 @@
+<script type="text/discourse-plugin" version="0.8.23">
+  jQuery(document).ready( function($) {
+    console.log('enable onebox-track-url');
+    //if click  inside onebox body
+    $('.onebox-body a').on('click.onebox-track-url',function(event){      
+      event.preventDefault();
+      var headerUrl = $(event.target).closest('.onebox').find('header a');
+      //click instead on header url to update tracking counter
+      if(headerUrl.length>0){
+        headerUrl[0].click();
+      }
+      });
+    });
+</script>
+
